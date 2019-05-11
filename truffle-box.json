@@ -12,6 +12,6 @@
     "Migrate to live network": "npm run migrate:live"
   },
   "hooks": {
-    "post-unpack": "npm install"
+    "post-unpack": "mv evm/* . && npm install"
   }
 }
