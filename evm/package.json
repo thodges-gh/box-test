@@ -1,0 +1,18 @@
+{
+  "name": "box-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile": "./node_modules/.bin/truffle compile",
+    "console:dev": "./node_modules/.bin/truffle console --network development",
+    "console:live": "./node_modules/.bin/truffle console --network live",
+    "migrate:dev": "./node_modules/.bin/truffle migrate --reset --network development",
+    "migrate:live": "./node_modules/.bin/truffle migrate --network live",
+    "test": "./node_modules/.bin/truffle test --network test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "openzeppelin-solidity": "^1.12.0",
+    "truffle-hdwallet-provider": "^1.0.9"
+  }
+}
