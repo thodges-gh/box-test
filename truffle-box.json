@@ -12,6 +12,6 @@
     "Migrate to live network": "npm run migrate:live"
   },
   "hooks": {
-    "post-unpack": "unbox.sh"
+    "post-unpack": "bash unbox.sh && npm install"
   }
 }
